@@ -1,0 +1,17 @@
+version: '3.9'
+
+services:
+
+  # Python Application
+  api:
+    build:
+      context: property-api
+      dockerfile: Dockerfile
+    container_name: kazigo-api
+    restart: always
+    ports:
+      - "8071:80"
+    volumes:
+      - ./property-api/:/var/www/property-api
+
+    
