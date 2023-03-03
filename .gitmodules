@@ -3,4 +3,4 @@
 	url = git@github.com:kazigo/property-api.git
 [submodule "property-interface"]
 	path = property-interface
-	url = https://github.com/kazigo/property-interface
+	url = git@github.com:kazigo/property-interface.git
