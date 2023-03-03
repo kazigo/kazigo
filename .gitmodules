@@ -2,5 +2,5 @@
 	path = property-api
 	url = git@github.com:kazigo/property-api.git
 [submodule "property-interface"]
-	path = property-interface
+	path = property-ui
 	url = git@github.com:kazigo/property-interface.git
